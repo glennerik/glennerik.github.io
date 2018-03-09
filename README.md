@@ -1,2 +1,2 @@
 # glennerik.github.io
-Glenn-Erik Sandbakken 🕸Webdeveloper
+Glenn-Erik Sandbakken 🕸developer
