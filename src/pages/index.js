@@ -14,6 +14,7 @@ const Strong = () => (
     💪
   </span>
 )
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -29,7 +30,7 @@ const IndexPage = () => (
         Yup, that's me <Strong />
       </figcaption>
     </figure>
-    <h2>Projects I'm involved in</h2>
+    <h2>Projects</h2>
     <ul>
       <li>
         <a
@@ -69,7 +70,7 @@ const IndexPage = () => (
       </li>
     </ul>
 
-    <h2>Some other Glenn-Erik sources</h2>
+    <h2>Other Sources</h2>
     <ul>
       <li>
         <a
