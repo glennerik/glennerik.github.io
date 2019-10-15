@@ -17,6 +17,9 @@ const IndexPage = () => (
     <Layout>
       <section className="section">
         <div className="container">
+          <h1 className="title is-size-1 has-text-centered has-margin-bottom-50">
+            Glenn-Erik Sandbakken
+          </h1>
           <div className="columns">
             <div className="column is-narrow">
               <GlennFig />

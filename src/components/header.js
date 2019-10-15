@@ -1,11 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <h1 className="title is-size-1">{siteTitle}</h1>
-  </header>
-)
+const Header = ({ siteTitle }) => null
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
