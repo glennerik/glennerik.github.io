@@ -3,8 +3,10 @@ import Instagram from "./Instagram"
 
 export default () => (
   <>
-    <h2 className="subtitle">Any closing statements before we wrap this up?</h2>
-    <div>
+    <div className="has-margin-top-30">
+      <h2 className="subtitle" style={{ marginBottom: 0 }}>
+        Any closing statements before we wrap this up?
+      </h2>
       Yes! I am daglig leder (CEO) in Meto Eiendom AS, a real estate company
       renting out twenty five apartments on Ensjø. I am also styreleder
       (Chairman) of the residential condominium (bolig-sameie){" "}

@@ -9,16 +9,24 @@ export default () => (
       </span>
     </h2>
 
-    <h3 className="subtitle">Main occupation?</h3>
-    <div className="has-margin-bottom-30">
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        Main occupation?
+      </h3>
       Freelance React &amp; Node developer
     </div>
 
-    <h3 className="subtitle">For hire?</h3>
-    <div className="has-margin-bottom-30">Yes, given the right project</div>
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        For hire?
+      </h3>
+      Yes, given the right project
+    </div>
 
-    <h3 className="subtitle">OK cool, how can we get in touch?</h3>
-    <div className="has-margin-bottom-30">
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        OK cool, how can we get in touch?
+      </h3>
       Send me a DM on{" "}
       <a
         target="_blank"
@@ -43,16 +51,11 @@ export default () => (
       </a>
     </div>
 
-    <h3 className="subtitle">You look young, how young are you really?</h3>
-    <div className="has-margin-bottom-30">
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        You look young, how young are you really?
+      </h3>
       I know, it&#39;s wild, I&#39;m almost under fourty!
-    </div>
-
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">Any religion?</h3>
-      </div>
-      <div className="column is-italic">Simulation theory</div>
     </div>
   </>
 )
