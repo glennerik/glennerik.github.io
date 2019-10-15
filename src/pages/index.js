@@ -15,7 +15,7 @@ const IndexPage = () => (
             <div className="column is-narrow">
               <GlennFig />
             </div>
-            <div className="column is-full">
+            <div className="column">
               <Summary />
             </div>
           </div>
