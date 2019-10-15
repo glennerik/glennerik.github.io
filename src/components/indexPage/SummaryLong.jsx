@@ -2,6 +2,17 @@ import React from "react"
 
 export default () => (
   <>
+    <h3 className="subtitle">Political views?</h3>
+    <div className="has-margin-bottom-30">
+      <i>Kardemommeloven</i>
+      <br />
+      However, reality transforms and becomes clearer once you realize that life
+      is a single player game in a (simple) simulation{" "}
+      <span className="has-margin-left-5" role="img" aria-label="joystick">
+        🕹
+      </span>
+    </div>
+
     <h3 className="subtitle">Top three favorite animals?</h3>
     <div className="has-margin-left-30 has-margin-bottom-30">
       <ol>

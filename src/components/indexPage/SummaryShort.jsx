@@ -23,34 +23,30 @@ export default () => (
       <div className="column">Yes, given the right project</div>
     </div>
 
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">OK Cool. How can we get in touch?</h3>
-      </div>
-      <div className="column">
-        Send me a DM on{" "}
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/glennerik/"
-          rel="noopener noreferrer"
-        >
-          LinkedIn{" "}
-          <span className="icon">
-            <i className="fab fa-linkedin" />
-          </span>
-        </a>{" "}
-        or even{" "}
-        <a
-          target="_blank"
-          href="https://twitter.com/glenneriks"
-          rel="noopener noreferrer"
-        >
-          Twitter{" "}
-          <span className="icon">
-            <i className="fab fa-twitter" />
-          </span>
-        </a>
-      </div>
+    <h3 className="subtitle">OK Cool. How can we get in touch?</h3>
+    <div className="has-margin-bottom-30">
+      Send me a DM on{" "}
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/glennerik/"
+        rel="noopener noreferrer"
+      >
+        LinkedIn{" "}
+        <span className="icon">
+          <i className="fab fa-linkedin" />
+        </span>
+      </a>{" "}
+      or even{" "}
+      <a
+        target="_blank"
+        href="https://twitter.com/glenneriks"
+        rel="noopener noreferrer"
+      >
+        Twitter{" "}
+        <span className="icon">
+          <i className="fab fa-twitter" />
+        </span>
+      </a>
     </div>
 
     <div className="columns">
@@ -67,21 +63,6 @@ export default () => (
         <h3 className="subtitle">Religion?</h3>
       </div>
       <div className="column is-italic">Simulation theory</div>
-    </div>
-
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">Political views?</h3>
-      </div>
-      <div className="column">
-        <i>Kardemommeloven</i>
-        <br />
-        However, reality transforms and becomes clearer once you realize that
-        life is a single player game in a (simple) simulation{" "}
-        <span className="has-margin-left-5" role="img" aria-label="joystick">
-          🕹
-        </span>
-      </div>
     </div>
   </>
 )
