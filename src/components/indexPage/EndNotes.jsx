@@ -19,18 +19,22 @@ export default () => (
       <hr />
       <div className="has-text-centered">
         <div className="has-margin-bottom-30">
-          You must also check out my{" "}
-          <a
-            target="_blank"
-            href="https://www.instagram.com/glennerik.no"
-            rel="noopener noreferrer"
-          >
-            Instagram{" "}
-            <span className="icon">
-              <i className="fab fa-instagram" />
-            </span>
-          </a>
-          and should probably follow me there, here&#39;s a taste =)
+          <span className="is-inline-block">
+            You must also check out my{" "}
+            <a
+              target="_blank"
+              href="https://www.instagram.com/glennerik.no"
+              rel="noopener noreferrer"
+            >
+              Instagram{" "}
+              <span className="icon">
+                <i className="fab fa-instagram" />
+              </span>
+            </a>
+          </span>{" "}
+          <span className="is-inline-block">
+            and should probably follow me there, here&#39;s a taste =)
+          </span>
         </div>
         <Instagram />
       </div>
