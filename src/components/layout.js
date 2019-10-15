@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.scss"
 // import "bulma-helpers/css/bulma-helpers.min.css"
 
@@ -35,11 +36,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          <hr />
-          Umm..? Ahh..! Off course &rarr; © {new Date().getFullYear()} &amp;
-          built by <a href="https://www.glennerik.no">Glennerik.no</a>
-        </footer>
+        <Footer />
       </div>
     </>
   )
