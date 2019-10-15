@@ -20,7 +20,7 @@ export default () => (
       <div className="has-text-centered">
         <div className="has-margin-bottom-30">
           <span className="is-inline-block">
-            You must also check out my{" "}
+            You must check out my{" "}
             <a
               target="_blank"
               href="https://www.instagram.com/glennerik.no"
@@ -33,13 +33,13 @@ export default () => (
             </a>
           </span>{" "}
           <span className="is-inline-block">
-            and should probably follow me there, here&#39;s a taste =)
+            and should probably follow me there, here&#39;s a taste:
           </span>
         </div>
         <Instagram />
       </div>
       <hr />
-      I guess I&#39;ll end with this:
+      Let&#39;s end it with this:
       <br />
       <i>
         If you wanna see strange things, and proof of intersecting universes,

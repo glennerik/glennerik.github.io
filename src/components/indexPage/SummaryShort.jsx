@@ -9,21 +9,15 @@ export default () => (
       </span>
     </h2>
 
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">Main occupation?</h3>
-      </div>
-      <div className="column">Freelance React &amp; Node developer</div>
+    <h3 className="subtitle">Main occupation?</h3>
+    <div className="has-margin-bottom-30">
+      Freelance React &amp; Node developer
     </div>
 
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">For hire?</h3>
-      </div>
-      <div className="column">Yes, given the right project</div>
-    </div>
+    <h3 className="subtitle">For hire?</h3>
+    <div className="has-margin-bottom-30">Yes, given the right project</div>
 
-    <h3 className="subtitle">OK Cool. How can we get in touch?</h3>
+    <h3 className="subtitle">OK cool, how can we get in touch?</h3>
     <div className="has-margin-bottom-30">
       Send me a DM on{" "}
       <a
@@ -49,18 +43,14 @@ export default () => (
       </a>
     </div>
 
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle">
-          You look young, but how old are you really?
-        </h3>
-      </div>
-      <div className="column">40+ =)</div>
+    <h3 className="subtitle">You look young, how young are you really?</h3>
+    <div className="has-margin-bottom-30">
+      I know, it&#39;s wild, I&#39;m almost under fourty!
     </div>
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle">Religion?</h3>
+        <h3 className="subtitle">Any religion?</h3>
       </div>
       <div className="column is-italic">Simulation theory</div>
     </div>
