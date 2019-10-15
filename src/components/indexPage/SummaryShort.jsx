@@ -13,7 +13,8 @@ export default () => (
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
         Main occupation?
       </h3>
-      Freelance React &amp; Node developer
+      Freelance React <i className="fab fa-react" /> and Node{" "}
+      <i className="fab fa-node-js" /> developer
     </div>
 
     <div className="has-margin-top-30">
@@ -33,7 +34,6 @@ export default () => (
         href="https://www.linkedin.com/in/glennerik/"
         rel="noopener noreferrer"
       >
-        LinkedIn{" "}
         <span className="icon">
           <i className="fab fa-linkedin" />
         </span>
@@ -44,7 +44,6 @@ export default () => (
         href="https://twitter.com/glenneriks"
         rel="noopener noreferrer"
       >
-        Twitter{" "}
         <span className="icon">
           <i className="fab fa-twitter" />
         </span>

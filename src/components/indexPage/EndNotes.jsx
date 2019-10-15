@@ -7,17 +7,29 @@ export default () => (
       <h2 className="subtitle" style={{ marginBottom: 0 }}>
         Any closing statements before we wrap this up?
       </h2>
-      Yes! I am daglig leder (CEO) in Meto Eiendom AS, a real estate company
-      renting out twenty five apartments on Ensjø. I am also styreleder
-      (Chairman) of the residential condominium (bolig-sameie){" "}
-      <a
-        target="_blank"
-        href="http://www.ensjoveien31.no"
-        rel="noopener noreferrer"
-      >
-        Ensjøveien 31
-      </a>
-      , with 45 apartments.
+      <div>
+        Yes! I am <i>daglig leder (CEO)</i> in{" "}
+        <a
+          target="_blank"
+          href="https://www.proff.no/selskap/meto-eiendom-as/oslo/eiendomshandel-og-utleie/IFZYJIP10MV/"
+          rel="noopener noreferrer"
+        >
+          Meto Eiendom AS
+        </a>
+        , a real estate company renting out twenty five apartments on Ensjø.
+      </div>
+      <div>
+        I am also <i>styreleder (chairman)</i> of the residential condominium
+        (bolig-sameie){" "}
+        <a
+          target="_blank"
+          href="http://www.ensjoveien31.no"
+          rel="noopener noreferrer"
+        >
+          Ensjøveien 31
+        </a>
+        , with 45 apartments.
+      </div>
       <hr />
       <div className="has-text-centered">
         <div className="has-margin-bottom-30">
@@ -28,7 +40,7 @@ export default () => (
               href="https://www.instagram.com/glennerik.no"
               rel="noopener noreferrer"
             >
-              Instagram{" "}
+              Instagram
               <span className="icon">
                 <i className="fab fa-instagram" />
               </span>

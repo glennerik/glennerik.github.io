@@ -16,8 +16,9 @@ export default () => (
       <i>Kardemommeloven</i>
       <br />
       However, reality transforms and becomes clearer once you realize that life
-      is a single player game in a (simple) simulation{" "}
-      <span className="has-margin-left-5" role="img" aria-label="joystick">
+      is a <i className="fas fa-gamepad" /> single player game in a (simple)
+      simulation{" "}
+      <span role="img" aria-label="joystick">
         🕹
       </span>
     </div>
@@ -35,11 +36,11 @@ export default () => (
           </li>
         </ol>
         <p className="has-margin-top-20">
-          Hippos are also pretty cool, but not enough to make it to the top
-          three. Cats are waaay way down on the list, propably all the way down
-          on place 100 or beyond. Because they like to torture and kill little
-          birds. Luckily birds have the Crows, who sometimes tease and annoy the
-          crap out of cats.
+          Moose and Hippos are also pretty awesome animals, but not enough to
+          make it to the top three. Cats are waaay waay down on the list,
+          propably all the way down to place 100 or beyond. Because they like to
+          torture and kill little birds. Luckily birds have the Crows, who
+          sometimes tease and annoy the crap out of cats.
         </p>
       </div>
     </div>
