@@ -30,7 +30,7 @@ export default () => (
               <i className="fab fa-instagram" />
             </span>
           </a>
-          and should probably follow me there =)
+          and should probably follow me there, here&#39;s a taste =)
         </div>
         <Instagram />
       </div>
@@ -40,8 +40,10 @@ export default () => (
       <i>
         If you wanna see strange things, and proof of intersecting universes,
         have a look at twitter &amp; facebook in general. That is the simulation
-        creating history backwards in time, while we&#39;re watching. (but
-        that&#39;s beginning to move outside the scope of this interview)
+        creating history backwards in time, while we&#39;re watching. It can be
+        pretty spectacular to watch, and the tool that enables it&#39;
+        observation (the telescope or collider, if you like =) is the internet.
+        (but that&#39;s beginning to move outside the scope of this interview)
       </i>
       . I also have a profile on{" "}
       <a
@@ -49,10 +51,10 @@ export default () => (
         href="https://www.facebook.com/glenneriks"
         rel="noopener noreferrer"
       >
-        Facebook{" "}
         <span className="icon">
           <i className="fab fa-facebook" />
         </span>
+        Facebook
       </a>{" "}
       by the way.
     </div>
