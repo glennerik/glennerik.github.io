@@ -3,7 +3,7 @@ import Image from "../image"
 import Summary from "./Summary"
 
 const WebDev = () => (
-  <span role="img" aria-label="a spiders web">
+  <span role="img" aria-label="spiders web">
     🕸
   </span>
 )
