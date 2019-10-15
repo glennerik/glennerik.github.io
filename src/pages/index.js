@@ -27,7 +27,6 @@ const IndexPage = () => (
           </div>
           <SummaryLong />
           <Projects />
-          Instagram carousel
           <EndNotes />
         </div>
       </section>

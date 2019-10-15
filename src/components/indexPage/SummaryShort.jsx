@@ -11,23 +11,21 @@ export default () => (
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">Main occupation?</h3>
+        <h3 className="subtitle">Main occupation?</h3>
       </div>
-      <div className="column">Freelance React / Node developer</div>
+      <div className="column">Freelance React &amp; Node developer</div>
     </div>
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">For hire?</h3>
+        <h3 className="subtitle">For hire?</h3>
       </div>
       <div className="column">Yes, given the right project</div>
     </div>
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">
-          OK Cool. How can we get in touch?
-        </h3>
+        <h3 className="subtitle">OK Cool. How can we get in touch?</h3>
       </div>
       <div className="column">
         Send me a DM on{" "}
@@ -36,22 +34,28 @@ export default () => (
           href="https://www.linkedin.com/in/glennerik/"
           rel="noopener noreferrer"
         >
-          LinkedIn
-        </a>
-        , or even{" "}
+          LinkedIn{" "}
+          <span className="icon">
+            <i className="fab fa-linkedin" />
+          </span>
+        </a>{" "}
+        or even{" "}
         <a
           target="_blank"
           href="https://twitter.com/glenneriks"
           rel="noopener noreferrer"
         >
-          Twitter
+          Twitter{" "}
+          <span className="icon">
+            <i className="fab fa-twitter" />
+          </span>
         </a>
       </div>
     </div>
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">
+        <h3 className="subtitle">
           You look young, but how old are you really?
         </h3>
       </div>
@@ -60,17 +64,20 @@ export default () => (
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">Religion?</h3>
+        <h3 className="subtitle">Religion?</h3>
       </div>
-      <div className="column">Simulation theory</div>
+      <div className="column is-italic">Simulation theory</div>
     </div>
 
     <div className="columns">
       <div className="column is-narrow">
-        <h3 className="subtitle is-italic">Political views?</h3>
+        <h3 className="subtitle">Political views?</h3>
       </div>
       <div className="column">
-        Kardemommeloven. However, life is a single player game
+        <i>Kardemommeloven</i>
+        <br />
+        However, reality transforms and becomes clearer once you realize that
+        life is a single player game in a (simple) simulation{" "}
         <span className="has-margin-left-5" role="img" aria-label="joystick">
           🕹
         </span>

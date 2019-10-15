@@ -2,9 +2,11 @@ import React from "react"
 
 export default () => (
   <>
-    <h3 className="subtitle">Can you show us some of your projects?</h3>
+    <h3 className="subtitle">
+      Any past or current projects you wanna share with us?
+    </h3>
     <div className="has-margin-bottom-30">
-      I&#39;ll give you three:{" "}
+      I have several, but I&#39;ll only show you these three:{" "}
       <a
         target="_blank"
         href="https://www.krakenlyrics.com"
@@ -14,7 +16,7 @@ export default () => (
       </a>{" "}
       |{" "}
       <a target="_blank" href="https://www.myip.info" rel="noopener noreferrer">
-        My IP
+        MyIP
       </a>{" "}
       |{" "}
       <a
@@ -22,7 +24,7 @@ export default () => (
         href="https://www.iplocation.info"
         rel="noopener noreferrer"
       >
-        IP Location
+        IPlocation
       </a>
     </div>
   </>

@@ -2,9 +2,11 @@ import React from "react"
 
 export default () => (
   <>
-    <h2 className="subtitle">Any closing statements?</h2>
+    <h2 className="subtitle">Any closing statements before we wrap this up?</h2>
     <div>
-      Daglig leder Meto Eiendom AS, Styreleder, etc.
+      Yes! I am daglig leder (CEO) in Meto Eiendom AS, a real estate company
+      renting out twenty five apartments on Ensjø. I am also styreleder
+      (Chairman) of the residential condominium (bolig-sameie){" "}
       <a
         target="_blank"
         href="http://www.ensjoveien31.no"
@@ -12,20 +14,41 @@ export default () => (
       >
         Ensjøveien 31
       </a>
+      , with 45 apartments.
+      <hr />
+      And you must check out my{" "}
       <a
         target="_blank"
         href="https://www.instagram.com/glennerik.no"
         rel="noopener noreferrer"
       >
-        Instagram
+        Instagram{" "}
+        <span className="icon">
+          <i className="fab fa-instagram" />
+        </span>
       </a>
+      and should probably follow me there =)
+      <hr />
+      I guess I&#39;ll end with this:
+      <br />
+      <i>
+        If you wanna see strange things, and proof of intersecting universes,
+        have a look at twitter &amp; facebook in general. That is the simulation
+        creating history backwards in time, while we&#39;re watching. (but
+        that&#39;s beginning to move outside the scope of this interview)
+      </i>
+      . I also have a profile on{" "}
       <a
         target="_blank"
         href="https://www.facebook.com/glenneriks"
         rel="noopener noreferrer"
       >
-        Facebook
-      </a>
+        Facebook{" "}
+        <span className="icon">
+          <i className="fab fa-facebook" />
+        </span>
+      </a>{" "}
+      by the way.
     </div>
   </>
 )

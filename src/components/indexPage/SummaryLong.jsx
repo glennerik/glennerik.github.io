@@ -2,13 +2,13 @@ import React from "react"
 
 export default () => (
   <>
-    <h3 className="subtitle is-italic">Top three favorite animals?</h3>
+    <h3 className="subtitle">Top three favorite animals?</h3>
     <div className="has-margin-left-30 has-margin-bottom-30">
       <ol>
         <li>Birds</li>
         <li>Octopus</li>
         <li>
-          Squirrel, Hedgehog, Human <i>(a Tie)</i>
+          Squirrel, Hedgehog &amp; Human <i>(a Tie)</i>
         </li>
       </ol>
       <p className="has-margin-top-20">
@@ -20,7 +20,7 @@ export default () => (
       </p>
     </div>
 
-    <h3 className="subtitle is-italic">What do you do in your spare time?</h3>
+    <h3 className="subtitle">What do you do in your spare time?</h3>
     <div className="has-margin-bottom-30">
       I sometimes attend events with or in relation to{" "}
       <a
@@ -28,6 +28,9 @@ export default () => (
         href="http://www.oafweb.org/"
         rel="noopener noreferrer"
       >
+        <span className="icon">
+          <i className="fas fa-binoculars" />
+        </span>{" "}
         Oslo Amatørastronomers Forening
       </a>
       . I also spend time with my daughter Eli-Marie Sandbakken and Wife Hang
