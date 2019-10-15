@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { GlennFig, Summary } from "../components/indexPage/"
+import { GlennFig, SummaryShort, SummaryLong } from "../components/indexPage/"
 
 const IndexPage = () => (
   <>
@@ -16,9 +16,10 @@ const IndexPage = () => (
               <GlennFig />
             </div>
             <div className="column">
-              <Summary />
+              <SummaryShort />
             </div>
           </div>
+          <SummaryLong />
         </div>
       </section>
     </Layout>
