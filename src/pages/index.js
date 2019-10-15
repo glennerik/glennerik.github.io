@@ -4,6 +4,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ReactGa from "../components/ReactGA"
 import {
   GlennFig,
   SummaryShort,
@@ -16,6 +17,7 @@ const IndexPage = () => (
   <>
     <SEO title="Home" />
     <Helmet link={[{ rel: "canonical", href: "https://www.glennerik.no" }]} />
+    <ReactGa pageName="index" />
     <Layout>
       <section className="section">
         <div className="container">
