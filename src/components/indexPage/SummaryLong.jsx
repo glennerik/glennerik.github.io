@@ -20,24 +20,18 @@ export default () => (
       </p>
     </div>
 
-    <div className="columns">
-      <div className="column is-narrow">
-        <h3 className="subtitle is-italic">
-          What do you do in your spare time?
-        </h3>
-      </div>
-      <div className="column">
-        I sometimes attend events with or in relation to{" "}
-        <a
-          target="_blank"
-          href="http://www.oafweb.org/"
-          rel="noopener noreferrer"
-        >
-          Oslo Amatørastronomers Forening
-        </a>
-        . I also spend time with my daughter Eli-Marie Sandbakken and Wife Hang
-        Thi Hoang.
-      </div>
+    <h3 className="subtitle is-italic">What do you do in your spare time?</h3>
+    <div className="has-margin-bottom-30">
+      I sometimes attend events with or in relation to{" "}
+      <a
+        target="_blank"
+        href="http://www.oafweb.org/"
+        rel="noopener noreferrer"
+      >
+        Oslo Amatørastronomers Forening
+      </a>
+      . I also spend time with my daughter Eli-Marie Sandbakken and Wife Hang
+      Thi Hoang.
     </div>
   </>
 )

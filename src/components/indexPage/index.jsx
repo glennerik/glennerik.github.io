@@ -2,6 +2,8 @@ import React from "react"
 import Image from "../image"
 import SummaryShort from "./SummaryShort"
 import SummaryLong from "./SummaryLong"
+import Projects from "./Projects"
+import EndNotes from "./EndNotes"
 
 const WebDev = () => (
   <span role="img" aria-label="spiders web">
@@ -20,4 +22,4 @@ const GlennFig = () => (
   </figure>
 )
 
-export { GlennFig, SummaryShort, SummaryLong }
+export { GlennFig, SummaryShort, SummaryLong, Projects, EndNotes }

@@ -2,7 +2,13 @@ import React from "react"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { GlennFig, SummaryShort, SummaryLong } from "../components/indexPage/"
+import {
+  GlennFig,
+  SummaryShort,
+  SummaryLong,
+  Projects,
+  EndNotes,
+} from "../components/indexPage/"
 
 const IndexPage = () => (
   <>
@@ -20,6 +26,9 @@ const IndexPage = () => (
             </div>
           </div>
           <SummaryLong />
+          <Projects />
+          Instagram carousel
+          <EndNotes />
         </div>
       </section>
     </Layout>
