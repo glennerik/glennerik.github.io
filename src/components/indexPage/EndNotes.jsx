@@ -1,4 +1,5 @@
 import React from "react"
+import Instagram from "./Instagram"
 
 export default () => (
   <>
@@ -16,18 +17,23 @@ export default () => (
       </a>
       , with 45 apartments.
       <hr />
-      And you must check out my{" "}
-      <a
-        target="_blank"
-        href="https://www.instagram.com/glennerik.no"
-        rel="noopener noreferrer"
-      >
-        Instagram{" "}
-        <span className="icon">
-          <i className="fab fa-instagram" />
-        </span>
-      </a>
-      and should probably follow me there =)
+      <div className="has-text-centered">
+        <div className="has-margin-bottom-30">
+          You must also check out my{" "}
+          <a
+            target="_blank"
+            href="https://www.instagram.com/glennerik.no"
+            rel="noopener noreferrer"
+          >
+            Instagram{" "}
+            <span className="icon">
+              <i className="fab fa-instagram" />
+            </span>
+          </a>
+          and should probably follow me there =)
+        </div>
+        <Instagram />
+      </div>
       <hr />
       I guess I&#39;ll end with this:
       <br />
