@@ -65,7 +65,7 @@ export default () => (
         If you wanna see strange things, and proof of intersecting universes,
         have a look at twitter &amp; facebook in general. That is the simulation
         creating history backwards in time, while we&#39;re watching. It can be
-        pretty spectacular to watch, and the tool that enables it&#39;
+        pretty spectacular to watch, and the tool that enables its
         observation (the telescope or collider, if you like =) is the internet.
         (but that&#39;s beginning to move outside the scope of this interview)
       </i>
