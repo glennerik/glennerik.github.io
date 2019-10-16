@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faAward } from "@fortawesome/free-solid-svg-icons"
 
 export default () => (
   <div className="has-margin-top-30">
@@ -13,9 +15,10 @@ export default () => (
     >
       Kraken Lyrics
     </a>
-    <i className="fas fa-award has-margin-right-10 has-margin-left-10" />
-    {/* <i className="fas fa-asymmetric has-margin-right-10 has-margin-left-10" /> */}
-    {/* <i className="fas fa-arrows-alt-h has-margin-right-10 has-margin-left-10" /> */}
+    <FontAwesomeIcon
+      icon={faAward}
+      className="has-margin-right-10 has-margin-left-10"
+    />
     <a target="_blank" href="https://www.myip.info" rel="noopener noreferrer">
       MyIP
     </a>

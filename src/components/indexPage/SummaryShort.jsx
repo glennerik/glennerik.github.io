@@ -1,4 +1,11 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faReact,
+  faNodeJs,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons"
 
 export default () => (
   <>
@@ -13,14 +20,16 @@ export default () => (
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
         Main occupation?
       </h3>
-      Freelance React
-      <span className="icon">
-        <i className="fab fa-react" />
-      </span>{" "}
-      and Node
-      <span className="icon">
-        <i className="fab fa-node-js" />
-      </span>{" "}
+      Freelance
+      <FontAwesomeIcon
+        icon={faReact}
+        className="has-margin-right-5 has-margin-left-5"
+      />
+      React and Node
+      <FontAwesomeIcon
+        icon={faNodeJs}
+        className="has-margin-right-5 has-margin-left-5"
+      />
       developer
     </div>
 
@@ -41,11 +50,12 @@ export default () => (
         href="https://www.linkedin.com/in/glennerik/"
         rel="noopener noreferrer"
       >
-        LinkedIn
-        <span className="icon">
-          <i className="fab fa-linkedin" />
-        </span>
-      </a>{" "}
+        Linked
+        <FontAwesomeIcon
+          icon={faLinkedin}
+          className="has-margin-left-5 has-margin-right-5"
+        />
+      </a>
       or even{" "}
       <a
         target="_blank"
@@ -53,9 +63,10 @@ export default () => (
         rel="noopener noreferrer"
       >
         Twitter
-        <span className="icon">
-          <i className="fab fa-twitter" />
-        </span>
+        <FontAwesomeIcon
+          icon={faTwitter}
+          className="has-margin-right-5 has-margin-left-5"
+        />
       </a>
     </div>
 

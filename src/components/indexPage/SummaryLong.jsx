@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGamepad, faBinoculars } from "@fortawesome/free-solid-svg-icons"
 
 export default () => (
   <>
@@ -17,7 +19,7 @@ export default () => (
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
         Who&#39;s your Idol?
       </h3>
-      Easy: Albert Einstein. A living one must be Bill Gates =)
+      Easy: Albert Einstein. A living one must be Bill Gates.
     </div>
 
     <div className="has-margin-top-30">
@@ -27,8 +29,12 @@ export default () => (
       <i>Kardemommeloven</i>
       <br />
       However, reality transforms and becomes clearer once you realize that life
-      is a <i className="fas fa-gamepad" /> single player game in a (simple)
-      simulation{" "}
+      is a
+      <FontAwesomeIcon
+        icon={faGamepad}
+        className="has-margin-right-5 has-margin-left-5"
+      />
+      single player game in a (simple) simulation{" "}
       <span role="img" aria-label="joystick">
         🕹
       </span>
@@ -66,10 +72,12 @@ export default () => (
         href="http://www.oafweb.org/"
         rel="noopener noreferrer"
       >
-        <span className="icon">
-          <i className="fas fa-binoculars" />
-        </span>{" "}
-        Oslo Amatørastronomers Forening
+        Oslo
+        <FontAwesomeIcon
+          icon={faBinoculars}
+          className="has-margin-right-5 has-margin-left-5"
+        />
+        Amatørastronomers Forening
       </a>
       . I also spend time with my daughter Eli-Marie Sandbakken and Wife Hang
       Thi Hoang.

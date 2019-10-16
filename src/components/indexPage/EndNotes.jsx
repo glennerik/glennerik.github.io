@@ -1,4 +1,9 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faInstagram,
+  faFacebookSquare,
+} from "@fortawesome/free-brands-svg-icons"
 import Instagram from "./Instagram"
 
 export default () => (
@@ -41,11 +46,12 @@ export default () => (
               rel="noopener noreferrer"
             >
               Instagram
-              <span className="icon">
-                <i className="fab fa-instagram" />
-              </span>
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="has-margin-right-5 has-margin-left-5"
+              />
             </a>
-          </span>{" "}
+          </span>
           <span className="is-inline-block">
             and should probably follow me there, here&#39;s a taste:
           </span>
@@ -63,18 +69,19 @@ export default () => (
         observation (the telescope or collider, if you like =) is the internet.
         (but that&#39;s beginning to move outside the scope of this interview)
       </i>
-      . I also have a profile on{" "}
+      . I also have a profile on
       <a
         target="_blank"
         href="https://www.facebook.com/glenneriks"
         rel="noopener noreferrer"
       >
-        <span className="icon">
-          <i className="fab fa-facebook" />
-        </span>
+        <FontAwesomeIcon
+          icon={faFacebookSquare}
+          className="has-margin-right-5 has-margin-left-5"
+        />
         Facebook
       </a>{" "}
-      by the way.
+      by the way
     </div>
   </>
 )
