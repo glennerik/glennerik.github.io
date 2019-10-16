@@ -1,8 +1,8 @@
 import React from "react"
 import InstagramEmbed from "react-instagram-embed"
 
-export default () => {
-  return (
+export default () =>
+  process.env.NODE_ENV !== "production" ? null : (
     <>
       <div className="columns">
         <div className="column">
@@ -99,4 +99,3 @@ export default () => {
       </div>
     </>
   )
-}
