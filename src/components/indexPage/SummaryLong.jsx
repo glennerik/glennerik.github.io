@@ -4,9 +4,20 @@ export default () => (
   <>
     <div className="has-margin-top-30">
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
-        Any religion?
+        You look young, how young are you really?
       </h3>
-      Simulation theory
+      I know, it&#39;s wild, I&#39;m almost under fourty! Actually I was born,
+      on the day, exactly 100 years after Albert Einstein. My daughter,
+      Eli-Marie was born, on the day, 36 years after me. The date is March 14,
+      which is, observed correctly, the beginning of PI 3,14. Eli&#39;s birthday
+      in 2015 is even closer: 3.1415 &mdash; it&#29;s almost spooky!
+    </div>
+
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        Who&#39;s your Idol?
+      </h3>
+      Easy: Albert Einstein. A living one must be Bill Gates =)
     </div>
 
     <div className="has-margin-top-30">
