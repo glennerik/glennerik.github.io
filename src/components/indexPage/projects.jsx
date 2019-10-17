@@ -17,7 +17,7 @@ export default () => (
     </a>
     <FontAwesomeIcon
       icon={faAward}
-      className="has-margin-right-10 has-margin-left-10"
+      className="has-margin-right-10 has-margin-left-10 icon"
     />
     <a target="_blank" href="https://www.myip.info" rel="noopener noreferrer">
       MyIP

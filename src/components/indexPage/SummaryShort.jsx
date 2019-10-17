@@ -23,12 +23,12 @@ export default () => (
       Freelance
       <FontAwesomeIcon
         icon={faReact}
-        className="has-margin-right-5 has-margin-left-5"
+        className="has-margin-right-5 has-margin-left-5 icon"
       />
       React and Node
       <FontAwesomeIcon
         icon={faNodeJs}
-        className="has-margin-right-5 has-margin-left-5"
+        className="has-margin-right-5 has-margin-left-5 icon"
       />
       developer
     </div>
@@ -53,7 +53,7 @@ export default () => (
         Linked
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="has-margin-left-5 has-margin-right-5"
+          className="has-margin-left-5 has-margin-right-5 icon"
         />
       </a>
       or even{" "}
@@ -65,7 +65,7 @@ export default () => (
         Twitter
         <FontAwesomeIcon
           icon={faTwitter}
-          className="has-margin-right-5 has-margin-left-5"
+          className="has-margin-right-5 has-margin-left-5 icon"
         />
       </a>
     </div>

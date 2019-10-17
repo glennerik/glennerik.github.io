@@ -32,10 +32,10 @@ export default () => (
       is a
       <FontAwesomeIcon
         icon={faGamepad}
-        className="has-margin-right-5 has-margin-left-5"
+        className="has-margin-right-5 has-margin-left-5 icon"
       />
       single player game in a (simple) simulation{" "}
-      <span role="img" aria-label="joystick">
+      <span role="img" aria-label="joystick" className="icon">
         🕹
       </span>
     </div>
@@ -75,7 +75,7 @@ export default () => (
         Oslo
         <FontAwesomeIcon
           icon={faBinoculars}
-          className="has-margin-right-5 has-margin-left-5"
+          className="has-margin-right-5 has-margin-left-5 icon"
         />
         Amatørastronomers Forening
       </a>
