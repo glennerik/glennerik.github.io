@@ -12,7 +12,7 @@ export default () => (
       on the day, exactly 100 years after Albert Einstein. My daughter,
       Eli-Marie was born, on the day, 36 years after me. The date is March 14,
       which is, observed correctly, the beginning of PI 3,14. Eli&#39;s birthday
-      in 2015 is even closer: 3.1415 &mdash; it&#29;s almost spooky!
+      in 2015 is even closer: 3.1415 &mdash; it&#39;s almost spooky!
     </div>
 
     <div className="has-margin-top-30">

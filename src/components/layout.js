@@ -5,6 +5,9 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+// ! light / dark - mode
+// ! contact form with netlify (try without transferring the domain, or just use glennerik.netlify.com)
+
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
