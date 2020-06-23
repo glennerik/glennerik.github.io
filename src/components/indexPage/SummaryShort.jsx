@@ -45,7 +45,7 @@ export default () => (
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
         OK cool, how can we get in touch?
       </h3>
-      Use the <Link to="/contact">contact form</Link> or send me a DM on{" "}
+      DM me on{" "}
       <a
         target="_blank"
         href="https://www.linkedin.com/in/glennerik/"

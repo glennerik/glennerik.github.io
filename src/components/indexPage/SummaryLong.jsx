@@ -6,6 +6,26 @@ export default () => (
   <>
     <div className="has-margin-top-30">
       <h3 className="subtitle" style={{ marginBottom: 0 }}>
+        Do you have a CV for me to download and show the ones I have to
+        convince?
+      </h3>
+      Sure, try one of these:
+      <ul>
+        <li>
+          <a href="/CV English Glenn-Erik Sandbakken.pdf">
+            CV English Glenn-Erik Sandbakken
+          </a>
+        </li>
+        <li>
+          <a href="/CV Norsk Glenn-Erik Sandbakken.pdf">
+            CV Norsk Glenn-Erik Sandbakken
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div className="has-margin-top-30">
+      <h3 className="subtitle" style={{ marginBottom: 0 }}>
         You look young, how young are you really?
       </h3>
       I know, it&#39;s wild, I&#39;m almost under fourty! Actually I was born,

@@ -52,9 +52,7 @@ export default () => (
               />
             </a>
           </span>
-          <span className="is-inline-block">
-            and should probably follow me there, here&#39;s a taste:
-          </span>
+          <span className="is-inline-block">, here&#39;s a taste:</span>
         </div>
         <Instagram />
       </div>
