@@ -5,36 +5,62 @@
   <style>
     body {
       background-color: rgb(230, 249, 255);
-      text-align: center;
-      text-shadow: 0px 0px 10px rgba(124, 207, 255, 0.719);
     }
 
-    h1 {
+    main {
+      max-width: 550px;
+      margin:auto;
+    }
+
+    h1,h2 {
       color: rgb(11, 42, 46);
       text-shadow: 0px 0px 20px white;
+      font-weight: normal;
+      text-shadow: 0px 0px 4px rgba(124, 207, 255, 0.719);
+      /* text-shadow: 0px 0px 20px rgb(255, 251, 0); */
+
     }
     
     p {
       color: rgb(16, 97, 119);
+      font-size: 1.5rem;
     }
 
     span {
       display: inline-block;
     }
 
-    .kraken {
+    ul {
+      margin: 0;
+      margin-left: 10px;
+      padding: 0;
+      font-size: 1.3rem;
+    }
+    ul li {
+      padding-bottom:10px;
+      margin-left:10px;
+    }
+
+    ol {
       border: 1px solid darkcyan;
       border-right: 0;
       border-left: 0;
       padding: 20px;
-      background-color: beige;
-      max-width: 350px;
+      background-color: lightcyan;
       margin: auto;
+      text-align:left;
+      font-size: 1.3rem;
+    }
+    ol li {
+      margin-left: 20px;
+    }
+    ol li a {
+     padding-left:20px;
     }
 
-
-    .enjoy {
-      text-shadow: 0px 0px 20px rgb(255, 251, 0);
+    .twitter {
+      margin-top:20px;
+      text-align:center;
     }
   </style>
   <meta name="viewport" content="width=device-width" />
@@ -52,39 +78,53 @@
 </head>
 
 <body>
-  <h1>Glennerik.no</h1>
+  <main>
+
+  <h1>Glenn-Erik Sandbakken</h1>
+
   <p>
-    Hi There. I’m Glenn-Erik Sandbakken.
+    La meg hjelpe deg og din bedrift med å lage deres egen, unike hjemmeside.
   </p>
-
   <p>
-    I live in Oslo with my wife, Hang, <span>and my daughter Eli-Marie.</span>
-  </p>
-
-  <p>
-
-    I am a computer engineer with focus on React, <span>to use just one word
-      =)</span>
+    Jeg har over tyve års erfaring med utvikling av enkle og komplekse web-løsninger.
   </p>
 
   <p>
-    Fortunately I am unhirable, <span>I don’t work for money.</span><br />
-    I work for fun, for profit and for *ealth <span>(and so should you).</span><br />
+    Modellen er enkel:<br />
+    <ul>
+      <li>
+        Jeg tar meg av alt, du bare prater med meg innimellom.
+      </li>
+      <li>
+        Så mange iterasjoner/oppdateringer/møter du ønsker.
+      </li>
+      <li>
+        2000Kr/mnd.
+      </li>
+      <li>
+        Du kan avslutte etter 12 måneder hvis du vil og du beholder selvfølgelig alt.
+      </li>
+    </ul>
   </p>
 
-  <p class="kraken">
-    Couple of references:
-    <span>
-      <a href="https://www.krakenlyrics.com">Kraken Lyrics</a>
-      🦑
-      <a href="https://www.myip.info">My IP</a>
-    </span>
-  </p>
+  <h2>Referansesider</h2>
+  <ol>
+    <li>
+      <a href="https://www.krakenlyrics.com">KrakenLyrics 🦑</a>
+    </li>
+    <li>
+      <a href="https://www.myip.info">MyIP 📍</a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/glennerik/">LinkedIn</a>
+    </li>
+  </ol>
 
-  <p class="enjoy">Enjoy your time ☀️ It is now that counts</p>
+  <div class="twitter">
+    <a class="twitter-timeline" data-width="500" data-height="500" data-theme="dark" href="https://twitter.com/glenneriks?ref_src=twsrc%5Etfw">Glenneriks Twitter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</main>
 
-  <a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/glenneriks?ref_src=twsrc%5Etfw">Glenneriks Twitter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </body>
-
 </html>
