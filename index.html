@@ -12,6 +12,9 @@
       margin:auto;
     }
 
+    h1 {
+      text-align: center;
+    }
     h1,h2 {
       color: rgb(11, 42, 46);
       text-shadow: 0px 0px 20px white;
@@ -67,37 +70,51 @@
     .imgWrapper{
       text-align: center;
     }
+
+    .intro {
+      display: flex;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 500px) {
+      .intro {
+        display: block;        
+      }
+      h1 {
+        text-align: left;
+      }
+    }
   </style>
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
   <title>Glenn-Erik Sandbakken</title>
   <link rel="shortcut icon" href="/favicon.png" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107457581-1"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107457581-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-107457581-1');
-  </script>
+  </script> -->
 </head>
 
 <body>
   <main>
 
   <h1>Glenn-Erik Sandbakken</h1>
+  <div class="intro">
+    <div>
+      <p>
+        La meg hjelpe deg og din bedrift med å lage deres egen, unike hjemmeside.
+      </p>
+      <p>
+        Jeg har over tyve års erfaring med utvikling av enkle og komplekse web-løsninger.
+      </p>
+    </div>
 
-  <p>
-    La meg hjelpe deg og din bedrift med å lage deres egen, unike hjemmeside.
-  </p>
-
-  <p>
-    Jeg har over tyve års erfaring med utvikling av enkle og komplekse web-løsninger.
-  </p>
-
-
-  <div class="imgWrapper">
-    <img src="/glennerik.jpg" border="1" width="200" height="200" alt="" />
+    <div class="imgWrapper">
+      <img src="/glennerik.jpg" border="1" width="200" height="200" alt="" />
+    </div>
   </div>
 
   <h2>Modellen er som følger</h2>
