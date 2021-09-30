@@ -104,7 +104,7 @@
   <div class="intro">
     <div>
       <p>
-        La meg hjelpe deg på nett med din egen, unike hjemmeside.
+        La meg hjelpe deg på nett med din egen, unike hjemmeside. Du får ikke bedre personlig oppfølging.
       </p>
       <p>
         Jeg har over tyve års erfaring med utvikling av enkle og komplekse web-løsninger.
@@ -146,9 +146,50 @@
       <a href="https://www.arndp.com">A Random Password Generator</a>
     </li>
     <li>
+      <a href="https://www.iplocation.info">IP Location info</a>
+    </li>
+    <li>
+      <a href="https://www.iplookup.info">IP Lookup info</a>
+    </li>
+    <li>
       <a href="https://www.linkedin.com/in/glennerik/">LinkedIn</a>
     </li>
   </ol>
+
+  <h2>Interessert? Ta kontakt!</h2>
+  <noscript style="color:red">
+    Du må skru på Javascript for å bruke kontaktsjema
+  </noscript>
+  <form id="my-form" action="https://formspree.io/f/mbjqbgyo" method="POST">
+    <input type="email" name="email" placeholder="Din amail addresse" style="width:100%"/>
+    <br /><br />
+    <textarea type="textarea" name="message" placeholder="Din beskjed" style="width:100%;height:100px"></textarea>
+    <br /><br />
+    <button id="my-form-button">Send</button>
+    <p id="my-form-status"></p>
+  </form>
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Takk 🥳 Prates snart";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! Det gikk ikke. Du kan sende på egenhånd til sandbakkenit@gmail.com"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 
   <div class="twitter">
     <a class="twitter-timeline" data-width="550" data-height="800" data-theme="dark" href="https://twitter.com/glenneriks?ref_src=twsrc%5Etfw">Glenneriks Twitter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
