@@ -4,37 +4,33 @@
 <head>
   <style>
     body {
-      background-color: rgb(230, 249, 255);
+      background-color: whitesmoke;
     }
-
     main {
       max-width: 550px;
       margin:auto;
     }
-
     h1 {
       text-align: center;
     }
     h1,h2 {
-      color: rgb(11, 42, 46);
-      text-shadow: 0px 0px 20px white;
       font-weight: normal;
-      text-shadow: 0px 0px 4px rgba(124, 207, 255, 0.719);
-      /* text-shadow: 0px 0px 20px rgb(255, 251, 0); */
+      text-shadow: 0px 0px 1px orange;
 
     }
-    
     p {
-      color: rgb(16, 97, 119);
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      font-weight:200;
     }
-
+    a, a:focus, a:active, a:link {
+      color: blue;
+    }
+    a:hover {
+      color:purple;
+    }
     span {
       display: inline-block;
     }
-
-
-
     ul, ol {
       margin: 0;
       margin-left: 10px;
@@ -54,14 +50,12 @@
     .twitter {
       text-align:center;
     }
-
     img {
       border-radius: 100%;
     }
     .imgWrapper{
       text-align: center;
     }
-
     .intro {
       display: flex;
       align-items: center;
@@ -160,28 +154,6 @@
     <button id="my-form-button">Send</button>
     <p id="my-form-status"></p>
   </form>
-<script>
-    var form = document.getElementById("my-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Takk 🥳 Prates snart";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Oops! Det gikk ikke. Du kan sende på egenhånd til sandbakkenit [at] gmail.com"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
 
   <h2>Større oppdrag</h2>
   <p>
@@ -204,5 +176,26 @@
   </div>
 
 </main>
+<script>
+  var form = document.getElementById("my-form");
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Takk 🥳 Prates snart";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! Det gikk ikke. Du kan sende på egenhånd til sandbakkenit [at] gmail.com"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
 </body>
 </html>
